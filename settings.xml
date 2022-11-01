@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<settingsxmlns="http://maven.apache.org/SETTINGS/1.0.0"          
+
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"          
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"          
-               xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0
-http://maven.apache.org/xsd/settings-1.0.0.xsd">  
+               xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">  
+  
   <pluginGroups>  
   </pluginGroups> 
+  
   <proxies> 
   </proxies> 
+  
+  
   <servers>   
     <server>     
       <username>${repo.username}</username>     
@@ -19,8 +23,10 @@ http://maven.apache.org/xsd/settings-1.0.0.xsd">  
       <id>snapshots</id>    
     </server> 
   </servers>  
+  
   <mirrors> 
   </mirrors>  
+  
   <profiles> 
   </profiles>
   
